@@ -1,0 +1,296 @@
+body{
+    font-family: 'Radio Canada', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.myLogo {
+    width: 8rem;
+
+}
+
+/* .banner {
+    background-image: url("/img/bannerbg.png");
+    background-color: green;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+} */
+
+.banner2 {
+    background-color: #f4f5f6;
+    
+}
+
+.bannerPadding {
+    padding: 5rem 0;
+}
+
+
+.frontBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0;
+    
+}
+
+.frontBanner p {
+    text-align: center;
+    font-weight: bold;
+    color: #003a78;
+}
+
+.frontBanner a {
+    text-decoration: none;
+    background-color: #003a78;
+    color: white;
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    border-radius: 15px;
+    border: 2px #003a78 solid;
+    transition: 0.5s;
+    
+}
+
+.frontBanner a:hover{
+    background: none;
+    color:#003a78;
+    border: 2px #003a78 solid;
+}
+
+.gHead {
+    font-weight: bold;
+    color: #003a78;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+   
+}
+
+.gHead span {
+    border-bottom: 5px #003a78 solid;
+}
+
+.imgd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+ .fcontent h2 {
+    font-weight: bold;
+    color: #003a78;
+    text-align: center;
+ } 
+
+ .fcontent p {
+     text-align: center;
+ }
+ 
+ .fcontent {
+     margin-top: 5rem;
+ }
+
+ .fcontent .f-info{
+     font-weight: bold;
+     text-align: center;
+ }
+
+
+ .imgAnimation {
+    animation-name: imgMove;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+ }
+
+ @keyframes imgMove {
+     from {
+        transform: translateY(10px);
+     }
+
+     to {
+        transform: translateY(-10px);
+     }
+ }
+
+
+
+.mty{
+    height: 500px;
+}
+
+
+.aboutUs a {
+    text-decoration: none;
+    background-color: #003a78;
+    color: white;
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    border-radius: 15px;
+    border: 2px #003a78 solid;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.aboutUs a:hover{
+    background: none;
+    color:#003a78;
+    border: 2px #003a78 solid;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.aboutUs h1 {
+    font-weight: bold;
+    color: #003a78;
+    margin-bottom: 2rem;
+}
+
+.aboutUs h1 span {
+    border-bottom: 5px #003a78 solid;
+}
+
+#aboutus {
+    padding: 5rem;
+}
+
+
+.webContent {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.text- h2 {
+    font-weight: bold;
+    color: #003a78;
+    text-align: center;
+}
+
+.text- .heading {
+    font-weight: bold;
+     text-align: center;
+}
+
+.text- p {
+    text-align: center;
+}
+
+.web {
+    background-color: #f4f5f6;
+}
+
+.sPackage .sHead {
+    font-weight: bold;
+    color: #003a78;
+}
+
+.sPackage .sHead span {
+    border-bottom: 5px #003a78 solid;
+}
+
+.spPackage h1 {
+    font-weight: bold;
+    color: #003a78;
+    text-align: center;
+}
+
+.spPackage p {
+    text-align: center;
+}
+
+.sPackage {
+    padding: 2rem;
+}
+
+.footer {
+    background-color: #f4f5f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.footerList {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+
+.footerList li {
+    display: inline;
+    float: right;
+    padding: 0 1rem;
+}
+
+.footer2 {
+    padding: 1rem 0;
+}
+
+.galleryImage {
+    width: 400px;
+}
+
+.gallery-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryHeading{
+    font-weight: bold;
+    color: #003a78;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 480px) {
+    .banner2 {
+        padding: 0 4rem;
+    }
+
+    .frontBanner {
+        padding: 7rem 2rem 2rem 2rem;
+    }
+
+    #aboutus {
+        padding: 2rem;
+    }
+
+    .footerList {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+}
