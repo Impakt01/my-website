@@ -8,15 +8,7 @@ body{
 
 }
 
-/* .banner {
-    background-image: url("/img/bannerbg.png");
-    background-color: green;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    
-} */
+
 
 .banner2 {
     background-color: #f4f5f6;
@@ -24,7 +16,7 @@ body{
 }
 
 .bannerPadding {
-    padding: 5rem 0;
+    padding: 5rem 2rem;
 }
 
 
@@ -165,7 +157,7 @@ body{
 }
 
 #aboutus {
-    padding: 5rem;
+    padding: 2rem;
 }
 
 
@@ -274,10 +266,6 @@ body{
 
     .frontBanner {
         padding: 7rem 2rem 2rem 2rem;
-    }
-
-    #aboutus {
-        padding: 2rem;
     }
 
     .footerList {
